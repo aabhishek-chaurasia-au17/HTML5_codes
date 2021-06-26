@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survay Form</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <h1>Survay Form</h1>
+        <div class="container">
+            <section class="internal-col">
+                <header class="header">
+                    <h4>Let us know how we can improve freeCodeComp</h4>
+                </header>
+
+                <section>
+                    <form>
+                        <div class="form-col">
+                            <label for="myname">* Name</label>
+                            <div class="input-col">
+                            <input type="text" class="inputs" id="myname">
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myemail">* Email</label>
+                            <div class="input-col">
+                            <input type="text" class="inputs" id="myemail">
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myage">* Age</label>
+                            <div class="input-col">
+                            <input type="number" class="inputs" id="myage">
+
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myrole">Which option best describes your current role?</label>
+                            <div class="input-col">
+                            <select class="select-input" name="role" id="myrole">
+                                <option>Student</option>
+                                <option selected>Working</option>
+                                <option>Professional</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myselect">How likely is the you would recommend freecode to a frind</label>
+                            <div class="input-col">
+                                <div class="radio-row">
+                                    <input type="radio" name="a" id="myselect">
+                                    <span>Definely</span>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="radio" name="a" id="myselect">
+                                    <span>May be</span>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="radio" name="a" id="myselect">
+                                    <span>Not Sure</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myrole">What do you like most in FCC :</label>
+                            <div class="input-col">
+                            <select class="select-input" name="role" id="myrole">
+                                <option selected>Selelct any Option</option>
+                                <option>Student</option>
+                                <option>Working</option>
+                                <option>Professional</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <label for="myselect">Things that should be improved in the future<br>
+                                (Check all that apply):</label>
+                            <div class="input-col">
+                                <div class="radio-row">
+                                    <input type="checkbox" name="a" id="myselect">
+                                    <span>Definely</span>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="checkbox" name="a" id="myselect">
+                                    <span>May be</span>
+                                </div>
+                                <div class="radio-row">
+                                    <input type="checkbox" name="a" id="myselect">
+                                    <span>Not Sure</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-col">
+                            <div class="bottun">
+                            <input type="submit" class="submit-button"  value="Submit">
+                            <input type="reset" class="submit-button" value="Reset">
+                            </div>
+                        </div>
+
+                    </form>
+                </section>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
