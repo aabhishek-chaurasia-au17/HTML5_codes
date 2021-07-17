@@ -1,0 +1,166 @@
+body {
+    background: #c33764;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #003d76, #011e46);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #003d76, #011e46);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+.main{
+    width: 100%;
+}
+
+.inner{
+    width: 70%;
+    margin:50px auto;
+    background: linear-gradient(to right, #0183ff, #003e8b);
+    border-radius: 5px;
+}
+
+.inner .top-head{
+    padding: 5px 0;
+}
+
+.inner .top-head h1{
+    color: #fff;
+    text-align: center;
+}
+
+.form-section{
+    background: linear-gradient(to right, #0183ff, #003e8b);
+    padding: 20px;
+    border-radius: 5px;
+}
+.form-section .row-line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.form-section .row-line .row{
+    flex-basis: 45%;
+    padding: 5px;
+}
+
+.form-section .row-line .row label{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 5px;
+}
+
+.form-section .row-line .row input[type='text']{
+    width: 98%;
+    height: 30px;
+    border: none;
+    border-bottom:#fff solid 1px;
+    background: none;
+    padding:0 0 0 5px;
+    
+}
+
+.form-section .row-line .row input[type='text']::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 20px;
+    opacity: 5; /* Firefox */
+  }
+  
+
+.row-line-2 {
+    padding: 5px;
+    padding: 15px 0;
+}
+
+.form-section .row-line-2 .col label{
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 3px;
+}
+
+.form-section .row-line-2 .col input[type='text']{
+    width: 99%;
+    height: 30px;
+    
+    border: none;
+    border-bottom:#fff solid 1px;
+    background: none;
+    padding:0 0 0 5px;
+}
+.form-section .row-line-2 .col input[type='text']::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 20px;
+    opacity: 5; /* Firefox */
+  }
+
+.form-section .row-line-2 .col input[type='phone']{
+    width: 99%;
+    height: 30px;
+    border: none;
+    border-bottom:#fff solid 1px;
+    background: none;
+    padding:0 0 0 5px;
+}
+
+.form-section .row-line-2 .col input[type='phone']::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 20px;
+    opacity: 5; /* Firefox */
+  }
+
+.form-section .row-line-2 .col input[type='email']{
+    width: 99%;
+    height: 30px;
+    
+    border: none;
+    border-bottom:#fff solid 1px;
+    background: none;
+    padding:0 0 0 5px;
+}
+
+.form-section .row-line-2 .col input[type='email']::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 20px;
+    opacity: 5; /* Firefox */
+  }
+
+.form-section .row-line-2 .col input[type='password']{
+    width: 99%;
+    height: 30px;
+    
+    border: none;
+    border-bottom:#fff solid 1px;
+    background: none;
+    padding:0 0 0 5px;
+}
+
+
+.form-section .row-line-2 .col input[type='password']::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    font-size: 20px;
+    opacity: 5; /* Firefox */
+  }
+
+.row-line-3{
+    padding: 20px 0;
+    text-align: center;
+    border: none;
+}
+
+.row-line-3 button{
+    width: 150px;
+    height: 30px;
+    margin:0 10px;
+    background: linear-gradient(to right, #003d76, #011e46);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+.row-line-3 button:hover{
+    background: linear-gradient(to left, #003d76, #011e46);
+}
