@@ -9,20 +9,57 @@
         .container{
             display: grid;
             grid-gap: 1rem;
-
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
         }
         .item{
             background-color: yellow;
             border: solid 1px ;
-            text-align: center;
+            /* text-align: center; */
+        }
+
+        #navbar{
+            grid-area: navbar;
+        }
+        #section{
+            grid-area: section;
+        }
+        #aside{
+            grid-area: aside;
+        }
+        #footer{
+            grid-area: footer;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="navbar" class="item"></div>
-        <div id="section" class="item"></div>
-        <div id="aside item-1" class="item-1"></div>
+        <div id="navbar" class="item">
+            Home About Contact Us
+        </div>
+        <div id="section" class="item">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis iure facere magni quisquam odit doloribus nemo sed perferendis nostrum. Reprehenderit consequuntur magnam similique ipsam illum, velit molestiae dolor iure nulla.
+            Natus vitae labore nulla doloremque laboriosam iste sapiente reiciendis impedit odio officiis similique possimus, quos deserunt temporibus unde repellat eum recusandae doloribus tempore, magnam illum quisquam quia. Ex, reprehenderit rem?
+            Doloribus ipsam nobis tenetur quidem repellendus magni ut in alias nam! Error repellendus consequuntur dolor temporibus placeat debitis voluptates quis magnam minus esse. Iusto itaque ea neque sapiente iste eligendi!
+            Doloremque suscipit, voluptas quam deserunt praesentium libero possimus voluptate labore? Aut ex libero consequuntur ullam repudiandae, fugiat cupiditate ipsa accusantium exercitationem ea et placeat itaque esse? Repellat rem delectus facilis!
+            Quidem consequuntur doloribus obcaecati facilis sequi nam eaque fugiat commodi optio id dicta ab, dolores vel laudantium, delectus fuga perspiciatis eius voluptate, officia earum sunt! Molestias, cum! Perspiciatis, aut iure.
+            Cum, pariatur quibusdam excepturi nemo aut neque facere vitae dolorem, qui magni repudiandae, illum explicabo. Accusantium, atque repudiandae perspiciatis necessitatibus voluptatibus quaerat ipsam sequi quia, ullam corporis laborum aut vero?
+            Repellat, ab quas mollitia delectus consequatur nihil sed sequi fugit et similique quod nobis maiores voluptate obcaecati cumque eligendi quos. Provident nam reprehenderit exercitationem, molestiae laborum dolores dolore magnam. At!
+            Tempore quasi quia mollitia maiores itaque fugiat eos libero delectus debitis autem maxime reprehenderit earum laborum tenetur nobis aliquam architecto dolorum quidem, repellat, quam ipsam accusantium, totam velit. Error, deleniti?
+            
+            Quas suscipit provident corporis hic cupiditate illo nobis deserunt harum odit facilis. Ea in, iste accusantium laborum aliquam perferendis amet velit sequi totam voluptatibus asperiores vero at esse expedita perspiciatis.
+            Assumenda officiis sapiente, quasi cum facere praesentium dolorem non aspernatur reiciendis. Commodi dolor sequi totam soluta tenetur quam reprehenderit velit minus eius. Aspernatur, nam nisi numquam eveniet distinctio reiciendis necessitatibus.
+            Voluptates sequi laboriosam sapiente necessitatibus nisi animi repellendus, ipsum, quia blanditiis accusantium possimus nobis! Aspernatur, repellendus architecto tenetur quas ipsam iste doloremque dignissimos, voluptatibus vel inventore soluta atque quae nihil.
+            Voluptas porro illum distinctio, iure atque veniam alias earum esse veritatis quas minus fuga molestias quibusdam, accusamus qui officiis, sunt adipisci deleniti dignissimos reprehenderit! Maiores debitis deleniti minus doloribus in.
+            
+        </div>
+        <div id="aside" class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit eos molestias nihil.
+        </div>
+        <div id="footer" class="item">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, consectetur?
+        </div>
         <!-- <div class="item">box-1</div>
         <div class="item">box-2</div>
         <div class="item">box-3</div>
