@@ -43,7 +43,7 @@ body{
 }
 
 .head-top{
-    padding: 15px 20px;
+    padding: 9px 20px;
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -181,6 +181,7 @@ body{
 
 .story-avtar{
     margin: 10px;
+    border: 3px solid #2e89ff;
 }
 
 .storyReel h4{
@@ -226,7 +227,7 @@ body{
     width: 100%;
     flex-direction: column;
     background-color: white;
-    margin-top: 30px;
+    margin-top: 10px;
     border: 15px;
     box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
@@ -350,6 +351,16 @@ body{
 
 /* Post section end */
 
+/* sidebarRow right start */
+
+.sidebarRow-rigth img{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    border: 3px solid #2e89ff;
+}
+
+/* sidebarRow right start */
 
 @media (max-width: 768px) {
     .sidebar{
