@@ -192,5 +192,197 @@ body{
 }
 
 
+/* messageSender */
+
+.messageSender{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 30px;
+    border: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}   
+
+.messageSender-top{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+
+.messageSender-top form{
+    display: flex;
+    flex: 1;
+}
+
+.messageSender-top form input{
+    flex: 1;
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 100px;
+    background-color: #eff2f5;
+}
+
+.messageSender-bottum{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.messageSender-option{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 5px;
+}
+
+.messageSender-option h3{
+    font-size: medium;
+    margin-left: 10px;
+}
+
+.messageSender-option:hover{
+    cursor: pointer;
+    background-color: #eff2f5;
+    border-radius: 20px;
+}
+
+
+/* Post section strat */
+
+
+.post{
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+}
+
+.post-image img{
+    width: 100%;
+}
+
+.post-top{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 15px;
+}
+
+.post-user-img{
+    margin-right: 10px;
+}
+
+.post-info h3{
+    font-size: medium;
+}
+
+.post-info p{
+    font-size: small;
+    color: gray;
+}
+
+.post-bottum{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 25px;
+}
+
+.post-options{
+    padding: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+
+.post-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.post-option p{
+    margin-left: 10px;
+}
+
+.post-option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+/* Post section end */
+
+
+@media (max-width: 768px) {
+    .sidebar{
+        display: none;
+    }
+    .header-input input{
+        display: none;
+    }
+    .header-mid{
+        display: none;
+    }
+    .header-info{
+        display: none;
+    }
+
+    .widgets{
+        display: none;
+    }
+    
+    .feed{
+        margin-top: 20px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .story h4{
+        font-size: 10px;
+    }
+
+    .story img{
+        width: 40px;
+    }
+}
+
+
+@media (min-width:76px) and (max-width:1440px){
+    .feed{
+        width: 50%;
+        padding: 10px 50px;
+    }
+}
+
+@media (min-width: 320px) {
+    .storyReel{
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
