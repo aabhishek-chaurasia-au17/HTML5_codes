@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-left img{
+    height: 40px;
+}
+
+.user-img{
+    width: 45px;
+    border-radius: 50%;
+}
+
+.head-top{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    z-index: 100;
+    box-shadow:0 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-input {
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 999px;
+  }
+  
+.header-input input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+
+
+.header-mid{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-option .material-icons{
+    font-size: xx-large;
+    color: gray;
+}
+
+
+.header-option .material-icons:hover{
+    color: #2e81f4;
+}
+
+.header-option .active{
+    color: #2e81f4;
+    border-bottom: #2e81f4 solid 4px ;
+}
+
+.header-option{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+.header-option:hover{
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+}
+
+.header-info{
+    display: flex;
+    align-items: center;
+}
+
+.header-info h4{
+    margin-left: 10px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.header-right .material-icons{
+    color: gray;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/* sidebar */
+
+.sidebarRow{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.sidebarRow:hover{
+    background: lightgray;
+    border-radius: 10px;
+}
+
+.sidebarRow h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.sidebarRow .material-icons{
+    font-size: xx-large;
+    color: #2e81f4;
+}
+
+/* end sidebar */
+
+/* feed start */
+
+/* feed start */
+
+
+
+
+
