@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #eff2f5;
 }
 
 .header-left img{
@@ -134,9 +135,61 @@ body{
 /* end sidebar */
 
 /* feed start */
+/* story start */
+.story{
+    position: relative;
+    background: no-repeat;
+    background-size: cover;
+    width: 120px;
+    height: 200px;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: tranform 100ms ease-in-out;
+}
 
-/* feed start */
 
+.story:hover{
+    transform: scale(1.08);
+}
+
+.story-avtar{
+    margin: 10px;
+}
+
+.storyReel h4{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+
+.storyReel{
+    padding: 10px 0;
+    display: flex;
+}
+/* story end */
+
+.feed{
+    flex: 1;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar{
+    padding: 25px 10px;
+    flex: 0.33;
+}
+
+/* feed end */
+
+.main-section{
+    display: flex;
+}
 
 
 
