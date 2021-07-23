@@ -7,6 +7,26 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e5e5e5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+}
+
 /* header start */
 
 .header {
@@ -56,6 +76,7 @@ body {
 .header-search button {
   padding: 0;
   margin: 0;
+  width: 75px;
   height: 100%;
   border: none;
   border-radius: 0px;
@@ -101,14 +122,42 @@ body {
   cursor: pointer;
 }
 
+.menubar-categorie img {
+  border-radius: 100%;
+  width: 26px;
+  height: 26px;
+}
+
+.menubar-head h4 {
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin: 15px 0 10px 25px;
+}
+
 .menubar::-webkit-scrollbar {
-  display: none;
+  width: 10px;
+}
+
+/* Track */
+.menubar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.menubar::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+/* Handle on hover */
+.menubar::-webkit-scrollbar-thumb:hover {
+  background: #e5e5e5;
 }
 
 hr {
   height: 1px;
   background-color: #e5e5e5;
   border: none;
+  margin: 10px 0;
 }
 
 /* section main body start*/
