@@ -13,6 +13,11 @@ body{
     margin: 0 auto;
 }
 
+.wrap-2{
+    width: 700px;
+    margin: 0 auto;
+}
+
 nav{
     display: flex;
     background-color: #222222;
@@ -110,4 +115,34 @@ section ul li:before {
 section ul li{
     padding: 5px 240px;
     font-size: 16px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+}
+
+footer h2{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #333;
+}
+
+footer aside{
+    width: 20%;
+    float: left;
+}
+
+footer aside img{
+    margin: 0 30px 50px 10px;
+}
+
+footer article{
+    width: 75%;
+    float: right;
+    font-style: italic;
+    font-size: 18px;
 }
