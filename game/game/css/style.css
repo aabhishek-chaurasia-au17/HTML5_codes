@@ -196,17 +196,15 @@ nav button:hover {
     border-radius: 10px;
 }
 
- 
-@media screen and (max-width: 480px) {
-
+@media screen and (max-width: 1024px) {
     .header{
-        font-size: 0.8em;
-        text-align: center;
+    font-size: 2em;
+	text-align: center;
     }
 
     .header h3{
-        font-size: 1.1rem;
-        padding: 10px 0;
+    font-size: 2rem;
+    padding: 10px 0;
     }
 
     nav{
@@ -218,12 +216,12 @@ nav button:hover {
     nav button{
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 1em;
+        font-size: 1.5em;
     }
 
     .left{
         width: 50%;
-        padding-left: 1%;
+        padding-left: 10%;
     }
 
     .right{
@@ -237,7 +235,7 @@ nav button:hover {
         background-size: cover;
         background-position: center center;
         padding: 20px 0 40px 0;
-        height: 450px;
+        height: 530px;
     }
 
     .left-attempt{
@@ -251,7 +249,7 @@ nav button:hover {
         width: 90%;
         margin: 0px auto 0 auto;
         padding: 10px 0; 
-        font-size: small;
+        font-size: x-large;
     }
 
     .center-col{
@@ -261,7 +259,7 @@ nav button:hover {
     .bg-blur{
         display: flex;
     }
-
+    
     .right-score{
         flex: 0.3;
         text-align: center;
@@ -272,54 +270,56 @@ nav button:hover {
         width: 90%;
         margin: 0px auto 0 auto;
         padding: 10px 0; 
-        font-size: small;
+        font-size: x-large;
     }
     
     .color-box-1{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
         margin: 10px;   
     }
 
     
     .color-box-2{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
-        margin: 10px;
+        margin: 10px; 
     }
     
     .color-box-3{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
-        margin: 10px;
+        margin: 10px; 
     }
     
     .color-box-4{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
-        margin: 10px;
+        margin: 10px; 
     }
     
     .color-box-5{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
-        margin: 10px;
+        margin: 10px; 
     }
     
     .color-box-6{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 100px;
         background-color: rgb(200, 99, 128);
-        margin: 10px;
+        margin: 10px; 
     }
 
 }
 
+
+ 
 
 @media screen and (max-width: 768px) {
     .header{
@@ -444,15 +444,17 @@ nav button:hover {
 }
 
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 480px) {
+
     .header{
-    font-size: 2em;
-	text-align: center;
+        font-size: 0.8em;
+        text-align: center;
     }
 
     .header h3{
-    font-size: 2rem;
-    padding: 10px 0;
+        font-size: 1.1rem;
+        padding: 10px 0;
     }
 
     nav{
@@ -464,12 +466,12 @@ nav button:hover {
     nav button{
         padding-left: 10px;
         padding-right: 10px;
-        font-size: 1.5em;
+        font-size: 1em;
     }
 
     .left{
         width: 50%;
-        padding-left: 10%;
+        padding-left: 1%;
     }
 
     .right{
@@ -483,7 +485,7 @@ nav button:hover {
         background-size: cover;
         background-position: center center;
         padding: 20px 0 40px 0;
-        height: 530px;
+        height: 450px;
     }
 
     .left-attempt{
@@ -497,7 +499,7 @@ nav button:hover {
         width: 90%;
         margin: 0px auto 0 auto;
         padding: 10px 0; 
-        font-size: x-large;
+        font-size: small;
     }
 
     .center-col{
@@ -507,7 +509,7 @@ nav button:hover {
     .bg-blur{
         display: flex;
     }
-    
+
     .right-score{
         flex: 0.3;
         text-align: center;
@@ -518,52 +520,50 @@ nav button:hover {
         width: 90%;
         margin: 0px auto 0 auto;
         padding: 10px 0; 
-        font-size: x-large;
+        font-size: small;
     }
     
     .color-box-1{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
         margin: 10px;   
     }
 
     
     .color-box-2{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
-        margin: 10px; 
+        margin: 10px;
     }
     
     .color-box-3{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
-        margin: 10px; 
+        margin: 10px;
     }
     
     .color-box-4{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
-        margin: 10px; 
+        margin: 10px;
     }
     
     .color-box-5{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
-        margin: 10px; 
+        margin: 10px;
     }
     
     .color-box-6{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
         background-color: rgb(200, 99, 128);
-        margin: 10px; 
+        margin: 10px;
     }
 
 }
-
-
